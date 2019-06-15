@@ -22,11 +22,8 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
 	wcmain.hCursor = NULL;
 	RegisterClassEx(&wcmain);
 	
-<<<<<<< HEAD
-	// подправленно
-=======
+
 	// подправленно мной 16.06.2019
->>>>>>> ae504f5... // РїРѕРґРїСЂР°РІР»РµРЅРЅРѕ РјРЅРѕР№ 16.06.2019
 	hMainWindow = CreateWindowEx(WS_EX_TOPMOST, ClassName, MainWindowName, WS_OVERLAPPED | WS_VISIBLE | WS_CAPTION | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_THICKFRAME | WS_SYSMENU, CW_USEDEFAULT, CW_USEDEFAULT, 500, 500, NULL, NULL, hInstance, NULL);
 	while(GetMessage(&msg, NULL, NULL, NULL))
 	{
